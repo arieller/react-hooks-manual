@@ -4,9 +4,15 @@ import ExampleUseState from "./ExampleUseState";
 import ExampleUseMemo from "./ExampleUseMemo";
 import ExampleUseRef from "./ExampleUseRef";
 import ExampleUseCallback from "./ExampleUseCallback";
+import ExampleUseContext from "./ExampleUseContext/ExampleUseContext";
+import ExampleUseReducer from "./ExampleUseReducer";
 
 ReactDOM.render(
   <React.StrictMode>
+    <ExampleUseReducer />
+    <hr />
+    <ExampleUseContext />
+    <hr />
     <ExampleUseState />
     <hr />
     <ExampleUseMemo />
